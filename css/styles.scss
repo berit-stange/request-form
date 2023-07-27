@@ -3,11 +3,19 @@
 $font-sans: 'Montserrat',
 sans-serif;
 $color-1: #F4F3F1;
-$color-2: #0d75bb;
-$color-3: #cea3b7;
+$color-2: #026d52;
+$color-3: #ebd5df;
 
 body {
     background-color: $color-1;
     color: $color-2;
     font-family: $font-sans;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin: 1em;
+    padding: 1em;
 }
