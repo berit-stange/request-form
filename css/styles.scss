@@ -13,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 3em;
 }
 
 input {
@@ -27,4 +28,16 @@ a {
     text-decoration: none;
     font-family: $font-sans;
     font-size: 1.2em;
+}
+
+h1 {
+    padding: 1em;
+}
+
+.product-grid {
+    display: flex;
+}
+
+.product-item {
+    margin: 1em;
 }
