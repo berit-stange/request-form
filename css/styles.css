@@ -1,12 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
-  background-color: #F4F3F1;
-  color: #026d52;
+  background-color: #eeeeee;
+  color: #14b042;
   font-family: "Montserrat", sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding-top: 3em;
+  margin: 0 auto;
+}
+
+.formular {
+  text-align: center;
+}
+
+.main {
+  max-width: 1080px;
 }
 
 input {
@@ -15,22 +26,74 @@ input {
 }
 
 a {
-  background-color: #ebd5df;
-  color: #026d52;
+  color: #14b042;
   padding: 1em;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-size: 1.2em;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 h1 {
+  color: #222222;
   padding: 1em;
+  text-align: center;
 }
 
 .product-grid {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
 }
 
 .product-item {
   margin: 1em;
+  height: 10em;
+  width: 10em;
+  border-radius: 10%;
+}
+
+.product-title {
+  color: #222222;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.fortschritt-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.fortschritt-dots {
+  border-top: 3px dotted #14b042;
+  height: 10px;
+  position: absolute;
+  top: 4.5em;
+  z-index: 0;
+  width: 100%;
+  max-width: 1080px;
+}
+
+.rund {
+  background-color: #eeeeee;
+  border: #14b042 1px solid;
+  color: #14b042;
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  padding: 0.2em;
+  z-index: 10;
+}
+.rund p {
+  font-size: 2em;
+  text-align: center;
+}
+
+.aktiv {
+  background-color: #14b042;
+  color: #eeeeee;
 }/*# sourceMappingURL=styles.css.map */
