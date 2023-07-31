@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;600;700&display=swap");
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fb09530 (added images)
 * {
   box-sizing: border-box;
   margin: 0;
 }
 
+<<<<<<< HEAD
 body {
   background-color: #eeeeee;
   color: #14b042;
@@ -20,15 +24,26 @@ body {
 .main {
   max-width: 1080px;
 =======
+=======
+>>>>>>> fb09530 (added images)
 body {
-  background-color: #F4F3F1;
-  color: #026d52;
+  background-color: #eeeeee;
+  color: #14b042;
   font-family: "Montserrat", sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding-top: 3em;
+<<<<<<< HEAD
 >>>>>>> 2f61b36 (update)
+=======
+  margin: 0 auto;
+}
+
+.formular {
+  text-align: center;
+}
+
+.main {
+  max-width: 1080px;
+>>>>>>> fb09530 (added images)
 }
 
 input {
@@ -38,15 +53,20 @@ input {
 
 a {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #14b042;
 =======
   background-color: #ebd5df;
   color: #026d52;
 >>>>>>> 2f61b36 (update)
+=======
+  color: #14b042;
+>>>>>>> fb09530 (added images)
   padding: 1em;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-size: 1.2em;
+<<<<<<< HEAD
 <<<<<<< HEAD
   display: block;
   width: 100%;
@@ -64,20 +84,36 @@ h1 {
   grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
 =======
+=======
+  display: block;
+  width: 100%;
+  height: 100%;
+>>>>>>> fb09530 (added images)
 }
 
 h1 {
+  color: #222222;
   padding: 1em;
+  text-align: center;
 }
 
 .product-grid {
+<<<<<<< HEAD
   display: flex;
 >>>>>>> 2f61b36 (update)
+=======
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+>>>>>>> fb09530 (added images)
 }
 
 .product-item {
   margin: 1em;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fb09530 (added images)
   height: 10em;
   width: 10em;
   border-radius: 10%;
@@ -124,6 +160,9 @@ h1 {
 .aktiv {
   background-color: #14b042;
   color: #eeeeee;
+<<<<<<< HEAD
 =======
 >>>>>>> 2f61b36 (update)
+=======
+>>>>>>> fb09530 (added images)
 }/*# sourceMappingURL=styles.css.map */
