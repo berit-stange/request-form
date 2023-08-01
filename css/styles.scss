@@ -18,7 +18,10 @@ body {
     font-family: $font-sans;
     padding-top: 3em;
     margin: 0 auto;
-    // 
+    // overflow-y: overlay;
+    // scrollbar-gutter: stable;
+    padding-left: 0px !important;
+    padding-right: 25px;
 }
 
 .formular {
@@ -59,6 +62,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 0 auto;
+    max-width: 900px;
 }
 
 .product-item {
@@ -89,7 +93,7 @@ h1 {
     top: 4.5em;
     z-index: 0;
     width: 100%;
-    max-width: 1080px
+    max-width: 1020px
 }
 
 .rund {
